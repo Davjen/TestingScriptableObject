@@ -12,6 +12,7 @@ public class Sponsor : ScriptableObject
     public FloatReference EachTurnGold;
     public FloatReference StartDuration;
     public FloatValue Duration;
+    public float durationFLoat;
 
     //public FloatValue ShortDuration, MediumDuration, LongDuration;
     //public FloatValue ShortMarketability, MediumMarketability, LongMarketability;
@@ -22,6 +23,7 @@ public class Sponsor : ScriptableObject
     public void ChangeDuration()
     {
         Duration.ApplyChange(-1);
+        durationFLoat--;
         CheckDuration();
     }
 

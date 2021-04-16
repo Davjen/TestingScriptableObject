@@ -30,4 +30,5 @@ MonoBehaviour:
     ConstantValue: 50
     Variable: {fileID: 11400000, guid: 8a0e7b355aa223942a802fa6317ae642, type: 2}
   Duration: {fileID: 11400000, guid: 9ed22ebfd13a7cf46ab6a82c42f53345, type: 2}
+  durationFLoat: -62
   EndContract: {fileID: 11400000, guid: c850dbbed5ddd2240af81abf20394592, type: 2}
